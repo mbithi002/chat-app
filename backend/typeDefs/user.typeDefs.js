@@ -7,6 +7,7 @@ const userTypeDef = `#graphql
         bio: String
         followers: [ID!]
         following: [ID!]
+        posts: [Post]!
     }
 
     type Query {
